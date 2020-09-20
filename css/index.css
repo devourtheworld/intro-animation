@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+      font-family: "Heebo", sans-serif;
+      color: white;
+  }
+  
+  .landing {
+    min-height: 100vh;
+    background: url("../img/fire-stones.jpg");
+    background-size: cover;
+    padding: 0rem 5rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+  }
+
+  #logo{
+      text-transform: uppercase;
+      font-weight: lighter;
+      font-size: 2rem;
+  }
+
+  .big-text{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+      font-size: 4.4rem;
+      color: rgb(95, 95, 95);
+      text-transform: uppercase;
+  }
+
+  .intro{
+      background: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .slider{
+    background: rgb(250, 123, 38);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+  }
+
+  .intro-text{
+      color: white;
+      font-size: 2.1rem;
+
+  }
+
+  .hide{
+      background: black;
+      overflow: hidden;
+  }
+
+  .hide span{
+      transform: translateY(100%);
+      display: inline-block;
+  }
